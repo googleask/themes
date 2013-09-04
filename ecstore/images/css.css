@@ -2,6 +2,22 @@ body { background:#f9f0e7; font-size:12px;}
 .topbar-left, .header-left, .header-main, .nav-left, .nav-main, .nav-main .menu li, .minicart-cont .goods-pic, .category-content .sub-category dt, .category-content .brands-box .item, .main-slide .trigger-item, .slider .prev, .slider .slide-box, .slider .slide-item, .page-container .section-left, .page-container .sidebar, .page-container .main, .switchable-trigger, .switchable-panel .goods-item, .sales-rank .goods-pic, .sales-charts .goods-pic, .user-comments .goods-pic, .helper-item, .friendlink-list li, .im .im-bar { float: left; _display: inline; }
 
 .topbar-right, .header-right, .nav-right, .slider .next, .page-container .section-right, .page-container .aside, .integ-coupon .need-integ, .follow-weibo .add-weibo-btn { float: right; _display: inline; }
+
+/* 模板首页*/
+.eb_main { width:1200px; margin:auto; margin-top:10px;}
+.eb_box1{ overflow:hidden; }
+.eb_left_bar1{width:200px; float:left;background:#fff;border:1px solid #e4c99a;}
+.ec_slide1{ width:990px;float:right;background:#fff;border:1px solid #e4c99a;}
+
+
+.inner-wrap { width: 1200px; margin: 0 auto; *zoom: 1; }
+.inner-wrap:after { display: block; visibility: hidden; height: 0; overflow: hidden; content: "\0020"; clear: both; }
+.inner-wrap .page-aside { width: 160px; }
+.inner-wrap .page-article { margin-left: 180px; }
+
+.inside-wrap { width: 1000px; margin: 0 auto; *zoom: 1; }
+.inside-wrap:after { display: block; visibility: hidden; height: 0; overflow: hidden; content: "\0020"; clear: both; }
+
 .page-topbar { background-color: #ede7db; line-height: 32px; color: #362e2b; border-bottom:1px solid #e4c99a; }
 .page-topbar a { color: #362e2b; margin: 0 3px; }
 .page-topbar a:hover { color: #6b3906; }
@@ -173,60 +189,7 @@ body { background:#f9f0e7; font-size:12px;}
 .sales-rank .goods-price { color: #fc6b00; }
 .sales-rank .goods-price i { font-size: 16px; line-height: 18px; }
 
-/* /热卖排行 */
-/* index news 公告资讯挂件 */
-.index-news { margin-bottom: 10px; }
-.index-news .news-list { margin-top: 5px; }
-.index-news .article-index-list { width: 100%; overflow: hidden; }
-.index-news .article-list { margin: 0 2px; }
-.index-news .article-index { line-height: 1.7; list-style: disc inside; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.index-news .article-index a { color: #333333; }
 
-/* /index news 公告资讯挂件 */
-/* 热卖品牌挂件 */
-.hot-brands .brand-item { width: 140px; height: 44px; line-height: 42px; *line-height: 44px; border: 0 none; overflow: hidden; margin: 20px auto 0; text-align: center; *font-size: 39.6px; font-family: Arial; }
-.hot-brands .brand-item img { max-width: 140px; max-height: 44px; vertical-align: middle; }
-
-/* /热卖品牌挂件 */
-/* 兑换优惠券挂件 */
-.integ-coupon .coupons-list { margin: 0 5px; }
-.integ-coupon .coupon-item { margin-top: 10px; }
-.integ-coupon .coupon-name { color: #333333; font-size: 14px; line-height: 30px; }
-.integ-coupon .coupon-info { color: #999999; line-height: 24px; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.integ-coupon .btn-primary { font-size: 14px; color: white; background-color: #fc6b00; padding: 0 12px; line-height: 28px; _float: left; }
-.integ-coupon .need-integ { color: #fc6b00; }
-.integ-coupon .need-integ i { font-size: 16px; }
-
-/* /兑换优惠券挂件 */
-/* 本类销售排行 */
-.sales-charts .goods-item { margin: 20px 10px 0; }
-.sales-charts .goods-pic { width: 70px; height: 70px; line-height: 68px; *line-height: 70px; border: 0 none; overflow: hidden; text-align: center; *font-size: 63px; font-family: Arial; }
-.sales-charts .goods-pic img { max-width: 70px; max-height: 70px; vertical-align: middle; }
-.sales-charts .goods-info { margin-left: 85px; *zoom: 1; }
-.sales-charts .goods-name { width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sales-charts .goods-name a { color: #666666; }
-.sales-charts .goods-name a:hover { color: #0563c3; }
-.sales-charts .goods-price { color: #fc6b00; }
-.sales-charts .goods-price i { font-size: 16px; line-height: 18px; }
-
-/* /本类销售排行 */
-/* 用户评论挂件 */
-.user-comments .comment-item { overflow: hidden; margin: 10px 10px 0; }
-.user-comments .goods-pic { width: 70px; height: 70px; line-height: 68px; *line-height: 70px; border: 0 none; overflow: hidden; text-align: center; *font-size: 63px; font-family: Arial; }
-.user-comments .goods-pic img { max-width: 70px; max-height: 70px; vertical-align: middle; }
-.user-comments .goods-info { margin-left: 85px; *zoom: 1; }
-.user-comments .goods-name { width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.user-comments .goods-name a { color: #666666; }
-.user-comments .goods-name a:hover { color: #0563c3; }
-.user-comments .goods-comment { color: #999999; height: 54px; }
-
-/* /用户评论挂件 */
-/* 关注我们 */
-.follow-weibo .add-weibo { height: 24px; line-height: 24px; margin-top: 10px; overflow: hidden; }
-.follow-weibo .sina-icon { float: left; _display: inline; width: 20px; height: 18px; background: url(sina_logo.png) no-repeat; }
-.follow-weibo .sina-v { float: left; _display: inline; background: url(sina_v.png) no-repeat right 50%; padding: 0 20px 0 5px; font-weight: bold; }
-.follow-weibo .weibo-info { margin-top: 10px; }
-.follow-weibo .add-weibo-btn { width: 60px; height: 24px; background: url(add_weibo_btn.png) no-repeat; }
 
 /* 面包屑 */
 .bread-crumbs { margin: 10px 0; line-height: 2; }
@@ -287,8 +250,3 @@ body { background:#f9f0e7; font-size:12px;}
 .virtual-category-wrap .vcat-dropdown { background-color: #f9f9f9; border: 1px solid #e0e0e0; padding: 0 10px; position: absolute; display: none; }
 .virtual-category-wrap .vcat-dropdown li { font-weight: 400; }
 
-/* 模板首页*/
-.eb_main { width:1200px; margin:auto; margin-top:10px;}
-.eb_box1{ overflow:hidden; }
-.eb_left_bar1{width:200px; float:left;background:#fff;border:1px solid #e4c99a;}
-.ec_slide1{ width:990px;float:right;background:#fff;border:1px solid #e4c99a;}
