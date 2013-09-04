@@ -5,7 +5,7 @@
 }" id="main_slide_<{$widgets_id}>">
            <ul class="slide-list switchable-content">
 		                                 <{foreach from=$data.pic item=parent key=parentId}>
-			 			 			 <li  class="slide-item" style="background: url(<{$parent.link}>;) no-repeat scroll center top transparent; display: list-item;">
+			 			 			 <li  class="slide-item" style="background: url(<{$parent.link}>) no-repeat scroll center top transparent; display: list-item;">
                     <a class="linkBtn" target="_blank" title="<{$data.linkinfo}>" href="<{$parent.linktarget}>" ></a>  
              </li>
 			  <{/foreach}>
