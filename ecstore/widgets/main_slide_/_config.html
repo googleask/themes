@@ -5,16 +5,16 @@
                 <th width="20%"><{t}>切换效果：<{/t}></th>
                 <td width="30%" >
                     <select name="effectWay">
-                        <option value=scrollx <{if $setting.effectWay==scrollx}>selected<{/if}>>横向滚动</option>
-                        <option value=scrolly  <{if $setting.effectWay==scrolly}>selected<{/if}>>竖向滚动</option>
-                        <option value=fade <{if $setting.effectWay==fade}>selected<{/if}>>渐现渐隐</option>
+                        <option value=scrollx <{if $setting.effectWay=="scrollx"}>selected<{/if}>>横向滚动</option>
+                        <option value=scrolly  <{if $setting.effectWay=="scrolly"}>selected<{/if}>>竖向滚动</option>
+                        <option value=fade <{if $setting.effectWay=="fade"}>selected<{/if}>>渐现渐隐</option>
                     </select>
                 </td>
                 <th width="20%" >自动播放：</th>
                 <td width="30%" >
                     <select name="autoplay">
-                        <option value=true <{if $setting.autoplay==true}>selected<{/if}>>是</option>
-                        <option value=false  <{if $setting.autoplay==false}>selected<{/if}>>否</option>
+                        <option value=true <{if $setting.autoplay=="true"}>selected<{/if}>>是</option>
+                        <option value=false  <{if $setting.autoplay=="false"}>selected<{/if}>>否</option>
                     </select>
                 </td>
             </tr>
