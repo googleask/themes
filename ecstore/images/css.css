@@ -115,7 +115,7 @@ body { background:#f9f0e7; font-size:12px;}
   height: 300px;
   margin: 0 auto;
   width: 1000px;}
-.main-slide .slide-item { height: 300px; width: 100%; overflow: hidden; }
+.main-slide .slide-item { height: 395px; width: 100%; overflow: hidden; }
 .main-slide .slide-item img { height: 300px; }
 .main-slide .slide-triggers { position: absolute; height: 26px; top: 470px; right: 48%; z-index: 100; color: #fc6b00; }
 .main-slide .slide-triggers .active { background-color: #fc6b00; color: white; }
